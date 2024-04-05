@@ -1,0 +1,74 @@
+ /* *(Asterísco) = TUDO */
+ *{
+    padding: 0;
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/*UMA CLASSE CHAMADA CABECALHO*/
+.cabecalho{
+    background-color: black;
+    height: 100px;
+    color: white;
+    margin-bottom: 30px;
+}
+ul{
+    list-style-type: none;
+    float: right; /*FLUTUAR À DIREITA = MOVER À DIREITA*/
+} 
+li{
+    padding: 30px; /*VALOR PARA TODOS OS LADOS*/
+    font-size: 18px;
+    margin: 10px 5px; /*10 NA VERTICAL e 5 NA HORIZONTAL*/
+    font-weight: bold;
+    display: inline-block;
+}
+li a{ /*O <a> QUE ESTÁ DENTRO DE <li>, OU SEJA, AS TAGS <a> QUE SÃO FILHAS DE <li>*/
+    text-decoration: none;
+    color: #fff;
+    
+}
+/*HOVER SOBRE<a> (DENTRO DE) <li>*/
+/*HOVER - EFEITO AO PASSAR O PONTEIRO DO MOUSE SOBRE*/
+li a:hover{
+    color:#ffbd07;
+}
+h1{
+    display: inline-block;
+    padding: 30px;
+}
+table{
+    width: 100%;
+    background-color: lightgray;
+    border-collapse: collapse;
+
+}
+table tr{
+    border: 1px solid black;
+}
+th, td{
+    padding: 10px;
+    font-size: 18px;
+    height: 20px;
+    text-align: center;
+}
+
+/*A LINHA TD DENTRO DO THEAD*/
+thead tr{
+    background-color: midnightblue;
+    color: white;
+}
+/*: nth (enésimo) child (filho) even (par)*/
+/* *odd = impar | even = par */
+tbody tr:nth-child(even){   /* vai pegar as N linhas PARES*/
+    background-color: #393452;
+    color: white;
+}
+   /* add impar | even = par */
+   tobody
+   tr:nth-child(even) /* vai pegar as N linhas pares*/
+    
+
+tbody tr:hover{
+    background-color: plum;
+    font-size: 20px;
+}
